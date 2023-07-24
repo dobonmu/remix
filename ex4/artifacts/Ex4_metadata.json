@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "newData",
+						"type": "uint8"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ex4/ex4.sol": "Ex4"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ex4/ex4.sol": {
+			"keccak256": "0x3f2b9267c1bc0cfa163c618c056dcb7778cd4211c15b7b9525cfa0c5271f73ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbf7645165830482728604c31a3c281fef9ee5075f396a66ac0969739bad7c4c",
+				"dweb:/ipfs/QmTeZjKa1W1U1ViabubpYg8jR2eDVd23i4mxP5TXAz8d5o"
+			]
+		}
+	},
+	"version": 1
+}
